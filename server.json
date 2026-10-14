@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "ai.capxule/journeys",
+  "name": "ai.capxule/capxule",
   "title": "Capxule",
   "description": "The context marketplace: expert guided journeys your assistant runs step by step.",
   "version": "2026.10.13",
