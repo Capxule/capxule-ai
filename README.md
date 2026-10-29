@@ -7,7 +7,7 @@ Connect your assistant to `https://capxule.ai/mcp` and it can find the right jou
 - **A step at a time, with choices.** Every step comes with numbered options, so you choose the direction. Ask in your own words at any point and the journey adapts.
 - **Practice and progress.** Practice journeys quiz you and track what you missed. Ask "where am I?" to see how far you have come and what is left, by topic.
 - **Pick up anywhere.** Stop whenever you like and continue later, even in another assistant, with a resume link.
-- **No sign-in to connect.** When you want to keep your progress, the assistant can connect a Capxule account right in the chat with a code sent to your email. No password, no site visit.
+- **No sign-in to connect.** No account or personal information is needed to start. When you want to keep your progress, the assistant gives you a link to continue on capxule.com.
 
 The full list of journeys is in [CATALOG.md](CATALOG.md) (live versions: [capxule.ai/catalog](https://capxule.ai/catalog) and [capxule.ai/catalog.jsonl](https://capxule.ai/catalog.jsonl)).
 
@@ -29,16 +29,15 @@ Then ask about a topic, for example *"help me decide whether to rent or buy"* or
 
 | Tool | What it does |
 |---|---|
-| `find_capsule` | Finds the journeys that match the user's own words, each saying who it is for and who it is not for |
-| `list_categories` | Lists the areas covered, with example titles |
-| `browse_catalog` | Pages through the journeys, optionally within one area |
+| `find_journey` | Finds the journeys that match the user's own words, each saying who it is for and who it is not for |
+| `list_journey_categories` | Lists the areas covered, with example titles |
+| `browse_journeys` | Pages through the journeys, optionally within one area |
 | `open_journey` | Opens or resumes a journey and returns the first step |
-| `turn` | Takes the next step, by a numbered option or in the user's own words |
-| `journey_state` | Where the user is, and what is left by topic |
-| `make_artifact` | A takeaway to keep, such as a checklist or plan |
-| `handoff` | A resume link to continue later or in another assistant |
+| `take_journey_step` | Takes the next step, by a numbered option or in the user's own words |
+| `get_journey_progress` | Where the user is, and what is left by topic |
+| `create_takeaway` | A takeaway to keep, such as a checklist or plan |
+| `get_resume_link` | A resume link to continue later or in another assistant |
 | `restart_journey` | Starts a journey over, only when the user asks |
-| `account_bind` / `account_verify` | Connects a Capxule account in the chat with an email code |
 
 The resource `capxule://catalog` holds the catalog in Markdown.
 

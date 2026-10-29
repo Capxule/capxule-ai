@@ -2,7 +2,7 @@
 
 155 published guided journeys across 17 categories (snapshot 2026-10-14). Each one walks through a single topic, one step at a time. In an AI assistant, connect `https://capxule.ai/mcp` and ask about the topic. On the web, open the title.
 
-Live versions: [capxule.ai/catalog](https://capxule.ai/catalog) (Markdown), [capxule.ai/catalog.jsonl](https://capxule.ai/catalog.jsonl) (one journey per line), and the `list_categories` / `browse_catalog` tools on the connector.
+Live versions: [capxule.ai/catalog](https://capxule.ai/catalog) (Markdown), [capxule.ai/catalog.jsonl](https://capxule.ai/catalog.jsonl) (one journey per line), and the `list_journey_categories` / `browse_journeys` tools on the connector.
 
 ## Categories
 
